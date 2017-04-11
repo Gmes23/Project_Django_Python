@@ -146,7 +146,7 @@ if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
     # Allow all host headers.
-    ALLOWED_HOSTS = ['gmlearning-log.herokuapp.com/']
+    ALLOWED_HOSTS = ['*']
     DEBUG = False
 
     # Static asset configuration
