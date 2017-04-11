@@ -135,6 +135,7 @@ BOOTSTRAP3 = {
 }
 
 # Heroku Settings
+cwd = os.getcwd()
 if os.getcwd() == '/app':
     import dj_database_url
     DATABASES = {
